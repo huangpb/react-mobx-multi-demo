@@ -1,0 +1,23 @@
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    z-index: 200;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #bbb;
+    transform: rotate(0deg);
+    animation: rotate 2s linear infinite;
+}
+.loading i {
+    font-size: 40px;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
