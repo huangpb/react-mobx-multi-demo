@@ -23,7 +23,7 @@ const chunks = Object.keys(entries);
 console.log(process.env.NODE_ENV)
 
 module.exports = {
-    devtool: 'eval-source-map',
+    devtool: 'source-map',
 
     entry: entries,
 
